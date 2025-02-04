@@ -5,31 +5,31 @@ int main(){
     printf("Enter a subject mark: ");
     scanf("%d",&mark);
     if (mark>=80){
-        printf("A+");
+        printf("The Grade is: A+");
     }
     else if(mark>=75){
-        printf("A");
+        printf("The Grade is: A");
     }
     else if (mark>=70){
-        printf("A-");
+        printf("The Grade is: A-");
     }
     else if (mark>=65){
-        printf("B+");
+        printf("The Grade is: B+");
     }
     else if (mark>=60){
-        printf("B");
+        printf("The Grade is: B");
     }
     else if (mark>=55){
-        printf("B-");
+        printf("The Grade is: B-");
     }
     else if (mark>=50){
-        printf("C+");
+        printf("The Grade is: C+");
     }
     else if (mark>=45){
-        printf("C");
+        printf("The Grade is: C");
     }
     else if (mark>=40){
-        printf("D");
+        printf("The Grade is: D");
     }
     else{
         printf("Fail");
