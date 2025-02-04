@@ -5,8 +5,8 @@ int main(){
     scanf("%d",&n);
     printf("The character value is: %c\n",n);
     char ch;
-    printf("Enter any Character value: ");
+   /* printf("Enter any Character value: ");
     scanf("%c",&ch);
-    printf("The ASCII value is: %d",ch);
+    printf("The ASCII value is: %d",ch);*/
     return 0;
 }
