@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main(){
-    // Even Odd 
-    int num;
-    printf("Enter any number: ");
-    scanf("%d",&num);
-    if(num%2==0){
-        printf("The %d number is even.",num);
+    int num1,num2;
+    printf("Enter two number: ");
+    scanf("%d %d",&num1,&num2);
+    if (num1 > num2){
+        printf("The %d is a largest number.",num1);
     }
     else{
-        printf("The %d number is odd.",num);
+        printf("The %d is a smallest number.",num2);
     }
     return 0;
 }
