@@ -11,6 +11,6 @@ int main(){
     printf("Round number: %lf\n",a);
     printf("Trunc number: %lf\n",b);
     printf("Celing number: %lf\n",c);
-    printf("Floor number: %lf",d);
+    printf("Floor number: %f",d);
     return 0;
 }
