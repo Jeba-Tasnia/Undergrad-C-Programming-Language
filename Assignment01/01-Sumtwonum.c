@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
-    printf("%d",x+y);
+    int x,y,z;
+    scanf("%d %d %d",&x,&y,&z);
+    printf("%d",x+y+z);
     return 0;
 }
